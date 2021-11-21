@@ -9,7 +9,7 @@ const {
   getAmenities,
 } = require("../../src/scraper/scrapeListingsHelpers");
 
-jest.setTimeout(10000);
+jest.setTimeout(15000);
 
 var browser;
 var page;
