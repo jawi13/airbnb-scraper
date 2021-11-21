@@ -1,5 +1,6 @@
-const { writeToFile } = require("./utils/writeToFile");
+const { clearOutputFileIfExists } = require("./utils/clearOutputFileIfExists");
 const { scrapeListingsData } = require("./scraper/scrapeListingsData");
+const { writeToFile } = require("./utils/writeToFile");
 
 const listingsUrls = [
   "https://www.airbnb.co.uk/rooms/33571268",
@@ -8,6 +9,7 @@ const listingsUrls = [
 ];
 
 const app = async () => {
+  clearOutputFileIfExists("./listingsData.json");
   const listingsData = await scrapeListingsData(listingsUrls);
   writeToFile("./listingsData.json", { data: listingsData });
 };

@@ -47,7 +47,6 @@ const getDetailsList = async (page) => {
     detailsListSelector
   );
   detailsList = detailsList.filter((detail) => detail !== " · ");
-  console.log(detailsList);
   return detailsList;
 };
 
