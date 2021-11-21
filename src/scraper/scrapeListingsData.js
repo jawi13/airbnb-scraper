@@ -31,8 +31,8 @@ const scrapeListingsData = async (listingsUrls) => {
           const propertyType = await getPropertyType(page);
 
           const detailsList = await getDetailsList(page);
-          const numberOfBedrooms = parseInt(detailsList[2].charAt(0));
-          const numberOfBathrooms = parseInt(detailsList[6].charAt(0));
+          const numberOfBedrooms = parseInt(detailsList[1].charAt(0));
+          const numberOfBathrooms = parseInt(detailsList[3].charAt(0));
 
           const amenitiesModalLink = await getAmenitiesModalLink(page);
 

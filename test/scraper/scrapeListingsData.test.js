@@ -1,7 +1,7 @@
 const { scrapeListingsData } = require("../../src/scraper/scrapeListingsData");
 const { expectedListingsData } = require("../resources/expectedListingsData");
 
-jest.setTimeout(60000);
+jest.setTimeout(30000);
 
 describe("integration tests for scraper", () => {
   test("should scrape data from valid listing URLs", async () => {

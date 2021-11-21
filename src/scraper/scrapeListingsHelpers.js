@@ -42,10 +42,12 @@ const getPropertyType = async (page) => {
 
 const getDetailsList = async (page) => {
   const detailsListSelector = "._194e2vt2 li span";
-  const detailsList = await getListOfElementsTextValues(
+  let detailsList = await getListOfElementsTextValues(
     page,
     detailsListSelector
   );
+  detailsList = detailsList.filter((detail) => detail !== " · ");
+  console.log(detailsList);
   return detailsList;
 };
 
