@@ -18,3 +18,9 @@ npm run start
 ```
 npm run test
 ```
+
+## With more time I would...
+
+- **Improve Testing**- create mock data to be able to unit test functions independently without the need to use puppeteer to evaluate live pages
+- **Build a front end**- to output the data gathered rather than in a .json file
+- **Create a build pipeline**- to run automated testing when a commit is pushed and optimise for production
