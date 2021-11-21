@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "url": "https://www.airbnb.co.uk/rooms/33571268",
+      "errorMessage": "Could not get data from url."
+    },
+    {
+      "url": "https://www.airbnb.co.uk/rooms/20669368",
+      "propertyName": "Little Country Houses - Poppy's Pad",
+      "propertyType": "Tiny house",
+      "numberOfBedrooms": 1,
+      "numberOfBathrooms": 1,
+      "amenities": [
+        "Suitable for events",
+        "Indoor fireplace",
+        "Heating",
+        "Smoke alarm",
+        "Fire extinguisher",
+        "First aid kit",
+        "Kitchen",
+        "Refrigerator",
+        "Cooking basics",
+        "Oven",
+        "Patio or balcony",
+        "BBQ grill",
+        "Free parking on premises",
+        "Hot tub",
+        "Host greets you"
+      ]
+    },
+    {
+      "url": "https://www.airbnb.co.uk/rooms/50633275",
+      "propertyName": "Lovely loft on the beautiful North Norfolk Coast",
+      "propertyType": "Entire guest house",
+      "numberOfBedrooms": 1,
+      "numberOfBathrooms": 1,
+      "amenities": [
+        "Hair dryer",
+        "Shampoo",
+        "Body soap",
+        "Shower gel",
+        "Hot water",
+        "Essentials",
+        "Hangers",
+        "Bed linen",
+        "Portable fans",
+        "Heating",
+        "Smoke alarm",
+        "Carbon monoxide alarm",
+        "Wifi",
+        "Microwave",
+        "Mini fridge",
+        "Kettle",
+        "Wine glasses",
+        "Coffee",
+        "Private entrance",
+        "Free parking on premises"
+      ]
+    }
+  ]
+}
